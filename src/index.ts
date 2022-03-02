@@ -2,14 +2,14 @@ import { AbstractConnector } from '@web3-react/abstract-connector'
 import { ConnectorUpdate } from '@web3-react/types'
 
 interface TorusConnectorArguments {
-  chainId: number
-  initOptions?: any
+  chainId: string | number
+  initOptions: any
   constructorOptions?: any
   loginOptions?: any
 }
 
 export class TorusConnector extends AbstractConnector {
-  private readonly chainId: number
+  private readonly chainId: string | number
   private readonly initOptions: any
   private readonly constructorOptions: any
   private readonly loginOptions: any
@@ -17,7 +17,7 @@ export class TorusConnector extends AbstractConnector {
   public torus: any
 
   constructor({ chainId, initOptions = {}, constructorOptions = {}, loginOptions = {} }: TorusConnectorArguments) {
-    super({ supportedChainIds: [chainId] })
+    super({ supportedChainIds: [Number(chainId)] })
 
     this.chainId = chainId
     this.initOptions = initOptions
