@@ -1,3 +1,3 @@
-# @web3-react/torus-connector
+# @dotoracle/web3-react-torus-connector-casper
 
-Please visit the [parent `web3-react` repository](https://github.com/NoahZinsmeister/web3-react) for documentation and details on this package.
+Forked from [Web3 React Torus Connector](https://www.npmjs.com/package/@web3-react/torus-connector).
