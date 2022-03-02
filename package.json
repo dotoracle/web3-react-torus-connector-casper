@@ -1,9 +1,9 @@
 {
-  "name": "@dotoracle/web3-react-torus-connector",
+  "name": "@dotoracle/web3-react-torus-connector-casper",
   "publishConfig": {
     "access": "public"
   },
-  "version": "6.2.9",
+  "version": "0.0.1",
   "description": "A simple, maximally extensible, dependency minimized framework for building modern dApps (on Casper)",
   "keywords": [
     "dotoracle",
