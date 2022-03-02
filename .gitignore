@@ -2,3 +2,4 @@
 /dist
 /.rts2_cache_cjs
 /.rts2_cache_esm
+.DS_Store
