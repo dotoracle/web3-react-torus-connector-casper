@@ -3,7 +3,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A simple, maximally extensible, dependency minimized framework for building modern dApps (on Casper)",
   "keywords": [
     "dotoracle",
@@ -36,7 +36,7 @@
     "lint": "tsdx lint src"
   },
   "dependencies": {
-    "@toruslabs/casper-embed": "^1.1.2",
+    "@toruslabs/casper-embed": "1.2.0",
     "@web3-react/abstract-connector": "^6.0.7",
     "@web3-react/types": "^6.0.7"
   },
